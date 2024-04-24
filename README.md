@@ -32,7 +32,7 @@
          sudo snap install netbeans --classic
      Glassfish server version must be 4.1.1
     
-    
+ 
 
 
 ### Assignment 1:
@@ -75,6 +75,10 @@ Terminal:
     export PATH=$MPJ_HOME/bin:$PATH
     javac -cp $MPJ_HOME/lib/mpj.jar ArrSum.java
     $MPJ_HOME/bin/mpjrun.sh -np 4 ArrSum
+
+## Change Permission
+chmod +x /home/prakash/Downloads/mpj-v0_44/bin/mpjrun.sh
+
 
 ### Assignment 4:
 
